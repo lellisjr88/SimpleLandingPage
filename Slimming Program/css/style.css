@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/ImgSaudavel.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(147, 141, 155, 0.1);  
+    padding: 50px;
+    color: #f1d906;
+    transition: 0.3s;
+}
+
+#header:hover{
+    background-color: rgba(80, 69, 95, 0.1);
+}
+#section{
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 30px;
+    background-color: rgba(234, 229, 241, 0.5);  
+    padding: 50px;
+    color: #293047;
+}
+#section h1{
+    text-align: center;
+    padding: 5px;
+}
+
+#footer{
+    margin-top: 200px;
+   
+    background-color: rgba(147, 141, 155, 0.1); 
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    
+}
+#button{
+    background-color: rgb(147, 201, 86);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#button:hover{
+    background-color: rgb(24, 184, 72);
+    
+}
